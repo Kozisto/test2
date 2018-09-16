@@ -1,0 +1,2 @@
+peatio:amqp:deposit_coin:1: process with pid 10773 started.
+I, [2018-09-13T22:31:15.559259 #10773]  INFO -- : Connected to AMQP broker (prefetch: default)

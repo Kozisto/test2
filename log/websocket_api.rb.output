@@ -1,0 +1,21 @@
+websocket_api.rb: process with pid 10592 started.
+I, [2018-09-13T22:31:00.020690 #10592]  INFO -- : Connected to AMQP broker.
+E, [2018-09-13T22:31:00.034191 #10592] ERROR -- : Error: no acceptor (port is in use or requires root privileges)
+E, [2018-09-13T22:31:00.034349 #10592] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.4/lib/eventmachine.rb:526:in `start_tcp_server'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.4/lib/eventmachine.rb:526:in `start_server'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/em-websocket-0.5.1/lib/em-websocket/websocket.rb:46:in `run'
+/root/graviex/lib/daemons/websocket_api.rb:45:in `block in <top (required)>'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.4/lib/eventmachine.rb:187:in `call'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.4/lib/eventmachine.rb:187:in `run_machine'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/eventmachine-1.0.4/lib/eventmachine.rb:187:in `run'
+/root/graviex/lib/daemons/websocket_api.rb:29:in `<top (required)>'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+lib/daemons/websocket_api_ctl:6:in `<main>'

@@ -1,0 +1,19 @@
+peatio:amqp:trade_executor:2: process with pid 11388 started.
+I, [2018-09-13T22:32:40.793707 #11388]  INFO -- : Connected to AMQP broker (prefetch: 5)
+/root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:55:in `join': Connection-level error: CONNECTION_FORCED - broker forced connection closure with reason 'shutdown' (Bunny::ConnectionForced)
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:55:in `block in join'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:55:in `each'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:55:in `join'
+	from /root/graviex/lib/daemons/amqp_daemon.rb:81:in `<top (required)>'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `load'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:203:in `start_load'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:298:in `start'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons.rb:147:in `block in run'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons.rb:146:in `run'
+	from /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-rails-1.2.1/lib/daemons/rails.rb:16:in `run'
+	from lib/daemons/trade_executor_ctl:17:in `block in <main>'
+	from lib/daemons/trade_executor_ctl:7:in `times'
+	from lib/daemons/trade_executor_ctl:7:in `<main>'
